@@ -1,0 +1,46 @@
+
+.container{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(234, 236, 250);
+    margin: 0 !important;
+ 
+    
+}
+.text-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+#footer{
+    flex: 0 0 auto;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    margin-top: 10px;
+}	
+.footers-info{
+    color: gray;
+    margin-top: 10px;
+
+}
+.first-text-ft{
+    margin-left: 50px;
+    margin-right: 100px;
+    color: gray;
+}
+li a{
+    margin-top: 10px;
+    color: gray;
+
+}
